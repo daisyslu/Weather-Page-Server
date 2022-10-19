@@ -1,0 +1,80 @@
+body{
+    background-color: darkgray;
+    padding: 10px 30px 100px 30px;
+}
+.project_top{
+    background-image: url(./media/weather.jpeg);
+}
+.project_heading{
+    color:white;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.project_subheading{
+    color:white;
+    font-size: 25px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.project_data{
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+.project_text{
+    color:white;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.project_section{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.project_image{
+    margin: 2px;
+}
+.project_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 50px 0px;
+}
+.image{
+    position: relative;
+}
+.image_title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(100,100,100,0.6);
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.image_title:hover{
+    opacity: 1;
+}

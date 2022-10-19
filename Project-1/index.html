@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's the weather like?</title>
+    <link href="style.css" rel = "stylesheet">
+</head>
+<body>
+    <section class ="project_top">
+    <h1 class ="project_heading"> What's the Weather Like?</h1>
+    <h2 class ="project_subheading"> Current Location: Tampa, FL </h2>
+    <h3 class= "project_subheading"> <span id="temp"> </span> °C </h3>
+    <h4 class= "project_data" id="weather"> </h4>
+    </section>
+    <p class ="project_text" id="paragraph"> Choose a city. Watch and feel. </p>
+    <div class="project_button">
+        <button id="button-color">Change Background Color</button>
+    </div>
+    <div class ="project_button">
+        <button onclick="myFunction()">Images are not clickable. Click me for "London"</button>
+    </div>
+    <div id="London" STYLE="display:none"><section>
+        <p class ="project_subheading"> London </p>
+        <p class ="project_subheading"> <span id="London_temp"> </span> °C </p>
+        <p class= "project_data" id="London_weather"> </p>
+    </section></div>
+    <section class ="project_section">
+        <div class="image">
+        <img class="project_image" alt="image of Beijing" src="./media/beijing.gif" 
+        width = "450" height="300"/>
+        <div class="image_title"> Beijing </div>
+        </div>
+        <div class="image">
+        <img class="project_image" alt="image of London" src="./media/london.gif" 
+        width = "450" height="300"/>
+        <div class="image_title"> London </div>
+        </div>
+        <div class="image">
+        <img class="project_image" alt="image of NYC" src="./media/new-york.gif" 
+        width = "450" height="300"/>
+        <div class="image_title"> New York City </div>
+        </div>
+        <div class="image">
+        <img class="project_image" alt="image of Paris" src="./media/paris.gif" 
+        width = "450" height="300"/>
+        <div class="image_title"> Paris </div>
+        </div>
+        <div class="image">
+        <img class="project_image" alt="image of Sydney" src="./media/sydney.gif" 
+        width = "450" height="300"/>
+        <div class="image_title"> Sydney </div>
+        </div>
+        <div class="image">
+        <img class="project_image" alt="image of Vancouver" src="./media/vancouver.gif" 
+        width = "450" height="300"/>
+        <div class="image_title"> Vancouver </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
